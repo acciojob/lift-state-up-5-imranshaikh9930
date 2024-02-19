@@ -17,7 +17,7 @@ const App = () => {
           !isLoggedIn &&  <Form  isLoggedIn={isLoggedIn} setIsLoggedIn ={setIsLoggedIn} />
      
         }
-          <p> {isLoggedIn ? 'You are logged In' : ''}</p>
+          <p> {isLoggedIn ? 'You are logged in!' : ''}</p>
     </div>
   )
 }
