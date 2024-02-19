@@ -10,7 +10,7 @@ function Form({isLoggedIn,setIsLoggedIn}) {
 
         setIsLoggedIn(!isLoggedIn);
 
-        alert("logged In")
+        alert("logged In");
 
     }
   return (
